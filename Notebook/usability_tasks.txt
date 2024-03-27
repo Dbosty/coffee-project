@@ -1,0 +1,73 @@
+https://www.nngroup.com/articles/task-scenarios-usability-testing/ 
+
+Questions that might help us out:
+
+What is causing our users to have trouble when interfacing with our 
+visualizations?
+
+What is the percentage of tasks that users complete correctly?
+What goals do you want accomplished when someone uses your visualization? 
+(This will be answered in our own blocks down below)
+
+What are the most important things that every user must be able to 
+accomplish on the site? (A good example in the article above)
+
+Is the scenario realistic and typical for how people normally interact 
+with visualizations?
+
+Does the task scenario encourage the user to interact with the visual?
+
+Does the task give away the answers or introduce heavy bias?
+
+
+Recommendations
+
+- Instead of telling users to do a task with little to no explanation, 
+  create a small scenario that incites an action and context for that action
+	- Maybe something along the lines of telling a user about coffee production 
+	  in certain areas and what we are looking for in a business.
+	- Does our visualization help us solve that problem?
+- Task Scenario: the action that you ask the participant to take on the 
+  tested interface
+	- Ex. You’re planning a vacation to NY in two months, you need to buy 
+	  airfare and a hotel. Go to Expedia and Hotels.com and see who has the best 
+	  deals.
+- DON’T OVER FORCE A USER TO INTERACT WITH A FEATURE, WE WANT TO SEE HOW 
+  THEY INTERACT WITH THE INTERFACE
+- The following three tips are important!
+	- Make the Task Realistic
+		- Give them liberty to explore the visualization to accomplish the task but 
+		  still keep the objective straight forward
+	- Make the Task Actionable
+		- Do: Tell them to do an action X.
+		- Don’t: Ask them, how would you do action X? 
+	- Avoid Giving Clues and Describing the Steps
+		- Step descriptions contain clues
+		- Tasks that include terms in the interface introduce bias
+		- Make them dive into the visual to complete a task
+
+Evaluation Metrics
+What are your evaluation metrics for your own personal models? 
+Daniel
+<Metric 1>
+<Metric 2>
+<Metric 3>
+Nora
+<Metric 1>
+<Metric 2>
+<Metric 3>
+Alyssa
+Find the country with high flavor scores (>7) and high aroma (>7)
+Find which processing method is used in different regions
+Find qualities (body score, aroma score, etc.) in country with lowest 
+flavor score
+Find how many bags were produced in the US with a flavor score over 7
+
+Include a few debriefing questions at the end as well.
+
+By Tuesday Night: Evaluation Metrics complete, links to visualizations, 
+debriefing questions complete (ready for interviews)
+By Saturday: Interviews completed + meet to complete study, 2 pm PT/ 5pm 
+ET
+Sunday: Usability Study due
+
