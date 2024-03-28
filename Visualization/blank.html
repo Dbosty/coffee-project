@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altair Chart</title>
+    <!-- Load Altair via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+    <!-- Container for the chart -->
+    <div id="chart-container"></div>
+
+    <!-- Load and embed Altair chart -->
+    <script>
+        // Embed Altair chart JSON
+        var chartSpec = {} 
+        
+        // Embed Altair chart into the specified container
+        vegaEmbed('#chart-container', chartSpec);
+    </script>
+</body>
+</html>
