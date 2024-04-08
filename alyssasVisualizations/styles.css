@@ -33,9 +33,9 @@ body {
     color: black;
   }
 
-  .tableauContainer {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Adjust as needed */
-}
+  /* .tableauContainer { */
+    /* display: flex; */ 
+    /* justify-content: center; Center horizontally */
+    /* align-items: center; Center vertically */
+    /* height: 100vh; Adjust as needed */
+/* } */
