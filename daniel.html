@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Likeability and Harvest</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Load Altair via CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
 <body>
     <div class="topnav">
@@ -24,22 +20,41 @@
           <h3><a href="danielsVisualizations/southAmerica.html">South America</a></h3>
         </div>
     </div>
-    <h1>The Likeability and Harvest of Coffee Throughout the World</h1>
-    <body>
-        <style>
-            p {
-                max-width: 800px; /* Adjust the value as needed */
-                font-size: 20px;
-            }
-        </style>
-        <p>
-            Describe your overall theme of your visualizations here.
-        </p>
-    </body>
+    <h1>Countries that Both Produce and Consume Coffee</h1>
+</body>
+<body>
+    <style>
+        p {
+            max-width: 800px; /* Adjust the value as needed */
+            font-size: 20px;
+        }
+    </style>
+    <p>
+        Describe your overall theme of your visualizations here.
+    </p>
 </body>
 <br>
 <body>
-  <style>
+    <style>
+        .gif-container {
+            position: relative; /* Set the container to relative positioning */
+            width: 50%; /* Set the width of the container */
+            height: 50%; /* Set the height of the container */
+        }
+        .beans-gif {
+            position: absolute; /* Set the GIF to absolute positioning */
+            top: 30%; /* Position the top of the GIF at 50% of the container height */
+            left: 100%; /* Position the left of the GIF at 50% of the container width */
+            transform: translate(-50%, -50%); /* Move the GIF back by half of its own width and height */
+        }
+        
+    </style>
+    <h3></h3>
+    <div class="gif-container">
+        <!-- GIF from https://images.dawn.com/news/1188207 -->
+        <img src="beans.gif" alt="Example GIF" class="beans-gif">
+    </div>
+    <style>
       p {
           justify-content:left;
           align-items: center;
@@ -47,7 +62,7 @@
           max-width: 5000px; 
           font-size: 15px;
       }
-      </style>
+    </style>
     <p>Global Coffee: Datasci 209 Spring 2024</p> 
 </body>
 </html>

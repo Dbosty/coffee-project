@@ -19,7 +19,7 @@ body {
 /* Container for links */
 .links-container {
   display: flex; /* Use flexbox layout */
-  padding: 0 100px; /* Changes the distance between links */
+  padding: 0 5%; /* Changes the distance between links */
 }
 
 /* Navbar links */
@@ -39,53 +39,57 @@ body {
 
 /* Apply styles to make JSON content fit the screen */
 body, html {
-margin: 0;
-padding: 0;
-width: 100%;
-height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .container {
-width: 100%;
-height: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #json-content {
-max-width: 90%;
-max-height: 90%;
-padding: 20px;
-overflow: auto; /* Enable scrolling if content overflows */
-background-color: #f0f0f0;
-border-radius: 10px;
-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-white-space: pre-wrap; /* Preserve formatting */
+  max-width: 90%;
+  max-height: 90%;
+  padding: 20px;
+  overflow: auto; /* Enable scrolling if content overflows */
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  white-space: pre-wrap; /* Preserve formatting */
 }
 
 /* Style to make the image smaller */
 .small-image {
-width: 400px; /* Set the desired width */
-height: 400px; /* Maintain aspect ratio */
-object-fit: cover;
+  width: 400px; /* Set the desired width */
+  height: 400px; /* Maintain aspect ratio */
+  object-fit: cover;
 }
 
 .image-container {
-text-align: center; /* Center the contents horizontally */
+  text-align: center; /* Center the contents horizontally */
+  width: 70%;
+  /* max-width: 800px; Adjust the maximum width as needed */
+  height: 100%;
 }
 img {
   display: inline; /* Make the image a block element */
-  margin: 50px auto 10px; /* Center the image and add margin */
+  /* margin: 50px auto 10px; Center the image and add margin */
+  margin: 15% auto 10%;
   
 }
 
 .text-container {
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 h3 {
   display: inline-block; /* Make the text an inline-block element */
@@ -98,3 +102,14 @@ p {
   margin-right: 10px; /* Add some spacing between elements */
 }
 
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust to desired height */
+}
+
+.tableauPlaceholder {
+  width: 80%;
+  height: 80%;
+}

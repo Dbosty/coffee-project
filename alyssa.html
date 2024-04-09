@@ -34,4 +34,36 @@
         </p>
     </body>
 </body>
+<br>
+<body>
+    <style>
+        .gif-container {
+            position: relative; /* Set the container to relative positioning */
+            width: 50%; /* Set the width of the container */
+            height: 50%; /* Set the height of the container */
+        }
+        .beans-gif {
+            position: absolute; /* Set the GIF to absolute positioning */
+            top: 30%; /* Position the top of the GIF at 50% of the container height */
+            left: 100%; /* Position the left of the GIF at 50% of the container width */
+            transform: translate(-50%, -50%); /* Move the GIF back by half of its own width and height */
+        }
+        
+    </style>
+    <h3></h3>
+    <div class="gif-container">
+        <!-- GIF from https://images.dawn.com/news/1188207 -->
+        <img src="pouring.gif" alt="Example GIF" class="beans-gif">
+    </div>
+    <style>
+      p {
+          justify-content:left;
+          align-items: center;
+          padding: 0 250px; 
+          max-width: 5000px; 
+          font-size: 15px;
+      }
+    </style>
+    <p>Global Coffee: Datasci 209 Spring 2024</p> 
+</body>
 </html>

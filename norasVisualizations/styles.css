@@ -19,7 +19,7 @@ body {
 /* Container for links */
 .links-container {
   display: flex; /* Use flexbox layout */
-  padding: 0 100px; /* Changes the distance between links */
+  padding: 0 5%; /* Changes the distance between links */
 }
 
 /* Navbar links */
@@ -75,12 +75,12 @@ body, html {
   text-align: center; /* Center the contents horizontally */
   width: 70%;
   /* max-width: 800px; Adjust the maximum width as needed */
-  height: auto;
+  height: 100%;
 }
 img {
   display: inline; /* Make the image a block element */
-  margin: 50px auto 10px; /* Center the image and add margin */
-  
+  /* margin: 50px auto 10px; Center the image and add margin */
+  margin: 10% auto 5%;
 }
 
 .text-container {
@@ -93,12 +93,14 @@ img {
 h3 {
   display: inline-block; /* Make the text an inline-block element */
   vertical-align: center; /* Align elements vertically */
-  margin-right: 10px; /* Add some spacing between elements */
+  /* margin-right: 10px; Add some spacing between elements */
+  margin-right: 5%;
+  margin: 0%;
 }
 p {
   display: inline-block; /* Make the text an inline-block element */
   vertical-align: top; /* Align elements vertically */
-  margin-right: 10px; /* Add some spacing between elements */
+  margin-right: 0%; /* Add some spacing between elements */
 }
 
 .centered {
