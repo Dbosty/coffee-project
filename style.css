@@ -1,21 +1,25 @@
 body {
     margin: 0;
     background-image: url("beans3.jpg");
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; 
     text-align: center;
 }
 
 /* The navbar container */
 .topnav {
     display: flex; /* Use flexbox layout */
-    justify-content: center; /* Center the items horizontally */
+    justify-content: space-between; /* Center the items horizontally */
     align-items: center; /* Center the items vertically */
-    height: 8vh; /* Make the navbar cover the full viewport height */
+    height: 10vh; /* Make the navbar cover the full viewport height */
     background-color: #333;
   }
   
   /* Container for links */
   .links-container {
     display: flex; /* Use flexbox layout */
+    padding: 0 150px;
   }
   
   /* Navbar links */
@@ -60,4 +64,37 @@ body, html {
   white-space: pre-wrap; /* Preserve formatting */
 }
 
+/* Style to make the image smaller */
+.small-image {
+  width: 400px; /* Set the desired width */
+  height: 400px; /* Maintain aspect ratio */
+  object-fit: cover;
+}
+
+.image-container {
+  text-align: center; /* Center the contents horizontally */
+  }
+  img {
+    display: inline; /* Make the image a block element */
+    margin: 50px auto 10px; /* Center the image and add margin */
+    
+  }
+
+.text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+  h3 {
+    display: inline-block; /* Make the text an inline-block element */
+    vertical-align: center; /* Align elements vertically */
+    margin-right: 10px; /* Add some spacing between elements */
+  }
+  p {
+    display: inline-block; /* Make the text an inline-block element */
+    vertical-align: top; /* Align elements vertically */
+    margin-right: 10px; /* Add some spacing between elements */
+  }
   
