@@ -11,21 +11,23 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
 <body>
-    <h1>Coffee Production and Consumption in Asia</h1>
-    <h3>Select from the following links to see breakdown per continent.</h3>
     <div class="topnav">
       <div class="links-container">
-        <h4><a href="../daniel.html">World</a></h4>
-        <h4><a href="africa.html">Africa</a></h4> 
-        <h4><a href="asia.html">Asia</a></h4> 
-        <h4><a href="northAmerica.html">North America</a></h4>
-        <h4><a href="oceania.html">Oceania</a></h4> 
-        <h4><a href="southAmerica.html">South America</a></h4>
+        <h1><a href="../index.html">Global Coffee</a></h1>
+      </div>
+      <div class="links-container">
+        <h3><a href="../daniel.html">Main</a></h3>
+        <h3><a href="world.html">World</a></h3> 
+        <h3><a href="africa.html">Africa</a></h3> 
+        <h3><a href="asia.html">Asia</a></h3> 
+        <h3><a href="northAmerica.html">North America</a></h3>
+        <h3><a href="southAmerica.html">South America</a></h3>
       </div>
     </div>
-    <p>Hover over the flags to see info on each country.</p>
-</body>
-<body>
+    <h1>Coffee Production and Consumption in Asia</h1>
+    <h2>Select a year from below.</h2>
+
+
     <!-- Container for the chart -->
     <div id="chart-container"></div>
 
@@ -4625,7 +4627,17 @@
         vegaEmbed('#chart-container', chartSpec);
     </script>
 </body>
+<br>
 <body>
-  <h3>Select a year from above.</h3>
+  <style>
+      p {
+          justify-content:left;
+          align-items: center;
+          padding: 0 250px; 
+          max-width: 5000px; 
+          font-size: 15px;
+      }
+      </style>
+    <p>Global Coffee: Datasci 209 Spring 2024</p> 
 </body>
 </html>

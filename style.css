@@ -19,7 +19,7 @@ body {
   /* Container for links */
   .links-container {
     display: flex; /* Use flexbox layout */
-    padding: 0 150px;
+    padding: 0 100px; /* Changes the distance between links */
   }
   
   /* Navbar links */
