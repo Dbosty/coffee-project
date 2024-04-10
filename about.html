@@ -24,48 +24,87 @@
           <h3><a href="demo.html">Demo</a></h3>
         </div>
     </div>
+    <br>
     <h1>About</h1>
-    <div class="text-container">
+</body>
+<br>
+<body>
+    <style>
+        .front-text-container1 {
+            text-align: center; /* Center the contents horizontally */
+            justify-content: space-between;
+            width: 50vh;
+            /* max-width: 800px; Adjust the maximum width as needed */
+            height: 50vh;
+            border: 2px solid brown; /* Add a border with brown color */
+            background-color: #f5deb3; /* Set the background color to a light brown */
+            padding: 5vh; /* Add padding inside the box */
+            box-sizing: border-box; /* Include padding and border in the element's total width */
+            margin: 1% auto 1%;
+            cursor: pointer; /* Change cursor to pointer on hover */
+            color: black;
+        }
+        .front-text-container1:hover {
+            background-color: lightgray; /* Change background color on hover */
+            text-decoration: none;
+            color: black;
+        }
+        .text-container1 {
+        display: flex;
+        flex-direction: row;
+        padding: 0 22%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0% auto;
+        margin-bottom: 10px;
+        }
+        h2 {
+        display: inline; /* Make the text an inline-block element */
+        vertical-align: center; /* Align elements vertically */
+        /* margin-right: 10px; Add some spacing between elements */
+        margin-right: 5%;
+        margin: 0%;
+        margin-bottom: 20%;
+        }
+        h4 {
+        display: inline-block; /* Make the text an inline-block element */
+        vertical-align: center; /* Align elements vertically */
+        margin-right: 0%; /* Add some spacing between elements */
+        margin: 0;
+        }
+        a {
+        text-decoration: none; /* Remove underline from the link */
+        text-transform: none;
+        }
+    </style>
 
-        <!-- Keeps the black font for the links -->
-        <style>
-            a {
-                color: black; 
-                text-decoration: none; 
-            }
-        </style>
-        <style>
-            /* Style to display images and names inline */
-            img, h3 {
-                display: block;
-                /* vertical-align: middle; Align elements vertically */
-                /* margin-right: 10px; Add some spacing between elements */
-            }
-        </style>
+</body>
+    <div class="text-container1">
+        <div class="front-text-container1">
+            <h2>Objective</h2>
+            <h4>With these visualizations we would like to shed light on quality, quantity, and equity factors 
+                across different regions for the benefit of coffee producers, enthusiasts, investors, and policymakers.
+                Through analysis and visualizations of the dimensions of coffee production and consumption, 
+                including import-export dynamics, coffee prices, and overall coffee aspects and quality. 
+                For example, we were particularly interested in further exploring the differences between countries 
+                that primarily export coffee versus those that import it. It became apparent that we all think it’s important to have 
+                a better understanding of where commodities like coffee come from and how it actually gets to our mug every morning.
+            </h4>   
+        </div>
         
-    </div>  
-    <!-- <p>Hover over the dots to see info on each country.</p> -->
-    <body>
-        <h2>
-            Objective
-        </h2>
-        <style>
-            p {
-                max-width: 800px; /* Adjust the value as needed */
-                font-size: 20px;
-            }
-            </style>
-        <p>
-            With these visualizations we would like to shed light on quality, quantity, and equity factors 
-            across different regions for the benefit of coffee producers, enthusiasts, investors, and policymakers.
-            Through analysis and visualizations of the dimensions of coffee production and consumption, 
-            including import-export dynamics, coffee prices, and overall coffee aspects and quality. 
-            For example, we were particularly interested in further exploring the differences between countries 
-            that primarily export coffee versus those that import it. It became apparent that we all think it’s important to have 
-            a better understanding of where commodities like coffee come from and how it actually gets to our mug every morning. 
-    
-    
-        </p>
-    </body>
+        <a href="danielsVisualizations/africa.html">
+            <div class="front-text-container1">
+                <h2>Arabica / Robusta Data</h2>
+                <h4>The ICO Dataset, or International Coffee Organization Dataset, is a comprehensive compilation of 
+                    coffee statistics worldwide. It encompasses data from various sources, providing insights into 
+                    coffee consumption, production, exports, prices, and more. With 12 files and 336 columns, 
+                    this dataset covers a wide range of aspects related to the coffee industry, spanning from 1990 
+                    to the present day. From disappearance and domestic consumption to exports, prices, and production, 
+                    the ICO Dataset offers valuable information for researchers, industry professionals, and enthusiasts alike.
+                </h4>
+            </div>
+        </a>
+    </div>
 </body>
 </html>
