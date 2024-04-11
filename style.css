@@ -1,3 +1,8 @@
+/*==================================
+
+            FOR BODY
+
+==================================*/
 body {
   margin: 0;
   background-image: url("beans3.jpg");
@@ -7,9 +12,18 @@ body {
   text-align: center;
 }
 
+/*==================================
+
+            FOR TOPNAV
+
+==================================*/
 /* The navbar container */
 .topnav {
   display: flex; /* Use flexbox layout */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
   justify-content: space-between; /* Center the items horizontally */
   align-items: center; /* Center the items vertically */
   height: 10vh; /* Make the navbar cover the full viewport height */
@@ -37,6 +51,11 @@ body {
   color: black;
 }
 
+/*==================================
+
+          FOR JSON CONTENT
+
+==================================*/
 /* Apply styles to make JSON content fit the screen */
 body, html {
   margin: 0;
@@ -64,6 +83,11 @@ body, html {
   white-space: pre-wrap; /* Preserve formatting */
 }
 
+/*==================================
+
+            FOR PNGS
+
+==================================*/
 /* Style to make the image smaller */
 .small-image {
   width: 400px; /* Set the desired width */
@@ -81,6 +105,11 @@ img {
   display: inline; /* Make the image a block element */
   /* margin: 50px auto 10px; Center the image and add margin */
   margin: 10% auto 5%;
+}
+
+.tableauPlaceholder {
+  width: 80%;
+  height: 80%;
 }
 
 .front-text-container {
@@ -126,7 +155,4 @@ p {
   height: 100vh; /* Adjust to desired height */
 }
 
-.tableauPlaceholder {
-  width: 80%;
-  height: 80%;
-}
+
