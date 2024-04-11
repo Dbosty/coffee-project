@@ -12,6 +12,10 @@ body {
   text-align: center;
 }
 
+.larger-text {
+  font-size: 2.5em; /* Adjust the font size as needed */
+}
+
 /*==================================
 
             FOR TOPNAV
@@ -108,8 +112,8 @@ img {
 }
 
 .tableauPlaceholder {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 30%;
 }
 
 .front-text-container {
@@ -128,9 +132,16 @@ img {
   margin: 1% auto 1%;
 }
 
+.front-text-container:hover {
+  background-color: lightgray; /* Change background color on hover */
+  text-decoration: none;
+  color: black;
+}
+
 .text-container {
   display: flex;
   flex-direction: row;
+  padding: 0 22%;
   align-items: center;
   justify-content: center;
   text-align: center;
