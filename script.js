@@ -7,10 +7,12 @@
 /*      HARVEST VISUAL      */
 function openHarvestPopup() {
   document.getElementById("harvest").style.display = "block";
+  
 }
 
 function closeHarvestPopup() {
   document.getElementById("harvest").style.display = "none";
+  location.reload();
 }
 
 /*      TASTE VISUAL      */
@@ -20,6 +22,7 @@ function openTastePopup() {
 
 function closeTastePopup() {
   document.getElementById("taste").style.display = "none";
+  location.reload();
 }
 
 /*==================================
@@ -35,6 +38,7 @@ function openConsumptionPopup() {
 
 function closeConsumptionPopup() {
   document.getElementById("consumption").style.display = "none";
+  location.reload();
 }
 
 /*      PRODUCTION VISUAL     */
@@ -44,6 +48,7 @@ function openProductionPopup() {
 
 function closeProductionPopup() {
   document.getElementById("production").style.display = "none";
+  location.reload();
 }
 
 /*      IMPORT / EXPORT VISUAL      */
@@ -53,6 +58,7 @@ function openImpExpPopup() {
 
 function closeImpExpPopup() {
   document.getElementById("impexp").style.display = "none";
+  location.reload();
 }
 
 /*==================================
@@ -68,6 +74,7 @@ function openWorldPopup() {
 
 function closeWorldPopup() {
   document.getElementById("world").style.display = "none";
+  location.reload();
 }
 
 /*      AFRICA VISUAL     */
@@ -77,6 +84,7 @@ function openAfricaPopup() {
 
 function closeAfricaPopup() {
   document.getElementById("africa").style.display = "none";
+  location.reload();
 }
 
 /*      ASIA VISUAL      */
@@ -86,6 +94,7 @@ function openAsiaPopup() {
 
 function closeAsiaPopup() {
   document.getElementById("asia").style.display = "none";
+  location.reload();
 }
 
 /*      NORTH AMERICA VISUAL      */
@@ -95,6 +104,7 @@ function openNorAmPopup() {
 
 function closeNorAmPopup() {
   document.getElementById("noram").style.display = "none";
+  location.reload();
 }
 
 /*      SOUTH AMERICA VISUAL     */
@@ -104,4 +114,5 @@ function openSoAmPopup() {
 
 function closeSoAmPopup() {
   document.getElementById("soam").style.display = "none";
+  location.reload();
 }
